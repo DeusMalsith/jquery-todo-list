@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	margin-top: 10%;
+	position: relative;
+}
+
+h1 {
+	color: blue;
+}
+
+li {
+	text-align: center;
+	text-decoration: none;
+}

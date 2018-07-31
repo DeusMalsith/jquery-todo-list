@@ -1,0 +1,13 @@
+Requirements
+-----------------
+A user should be able to add items to a 'todo' list from a form input using an input field and submit button.
+The form should clear when the user submits a task and focus back on the todo item field.
+On every item appended to the 'todo' list, have a way to delete the item. This could be in the form of a 'delete' link, a checkbox to mark it as active or inactive, or a plain button with an X on it.
+
+
+Bonuses
+-----------------
+Style the todo list with your own beautiful sense of design.
+Use jquery-ui sortable to make the todo list sortable. We'll be going over this more in the context of jQuery plugins
+Use the built-in HTML5 feature of local storage. Store your todo item into local storage. When your page is refreshed it will load the old todo items from localstorage.
+Local Storage And How To Use It On Websites
