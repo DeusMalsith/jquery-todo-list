@@ -4,11 +4,12 @@ $(document).ready(function(){
 		if (newListItem.length > 0) {
 			$('#toDoList').append('<li>' + newListItem + '</li>');
 			$('#addToList').val('');
+			$('#addToList').focus();
+
+			$('li').on('click',function(){
+				this.remove();
+			});
 		}
 	});
 });
 
-$('#toDoList').click(function(e){
-	e.stopPropagation();
-	$('li').remove();
-});

@@ -10,5 +10,12 @@ h1 {
 
 li {
 	text-align: center;
-	text-decoration: none;
+	padding: 4px;
+	list-style-position: inside;
 }
+
+ul {
+	display: inline-block;
+	text-align: center;
+}
+
